@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste Kenzo</title>
+    <link rel="stylesheet" href="liste.css">
+</head>
+
+<body>
+    <header>
+        <div class="entete">
+            <img src="images/merci.png" alt="imgkenzo">
+            <p id="titre">Complète ta réservation !<br> Pour retourner sur l'accueil : <a href="liste.html">ici</a>
+            </p>
+            <img src="images/cadeau.png" alt="imgkdo">
+        </div>
+    </header>
+    <main>
+        <form>
+
+            <legend>Veuillez remplir vos informations :</legend>
+
+            <div id="conteneur1">
+                <div class="ligneform">
+                    <label for="name">Nom:</label>
+                    <input id="name" type="text" name="identifiant"></div>
+                <div class="ligneform">
+                    <label for="email">Email:</label>
+                    <input id="email" type="text" name="email" placeholder="nom.prenom@gmail.com"></div>
+                <div class="ligneform">
+                    <label for="tel">Téléphone:</label>
+                    <input id="tel" type="text" name="tel" placeholder="--.--.--.--.--"></div>
+            </div>
+
+            <legend>Veuillez selectionner l'objet que vous souhaitez reservez :</legend>
+
+            <div id="conteneur2">
+                <div class="case">
+                    <input type="radio" id="item" name="liste" value="Berceau">
+                    <img src="images/berceau.jpg" height="200px">
+                    <label class="titreitem" for="item">Berceau</label>
+                </div>
+
+                <div class="case">
+                    <input type="radio" id="item" name="liste" value="armoire">
+                    <img src="images/armoire-ligne-passe-passe.jpg" height="200px">
+                    <label class="titreitem" for="item">Armoire</label>
+                </div>
+
+                <div class="case">
+                    <input type="radio" id="item" name="liste" value="poussette">
+                    <img src="images/poussette-combinee.jpg" height="200px">
+                    <label class="titreitem" for="item">Poussette</label>
+                </div>
+
+                <div class="case">
+                    <input type="radio" id="item" name="liste" value="babyphone">
+                    <img src="images/babyphone-light-show-bm2200-vtech.jpg" height="200px">
+                    <label class="titreitem" for="item">Babyphone</label>
+                </div>
+
+                <div class="case">
+                    <input type="radio" id="item" name="liste" value="balancelle">
+                    <img src="images/balancelle-avec-arche-de-jeux-babyswing-vertbaudet.jpg" height="200px">
+                    <label class="titreitem" for="item">Balancelle</label>
+                </div>
+
+                <div class="case">
+                    <input type="radio" id="item" name="liste" value="mobilier">
+                    <img src="images/mobile-personnalisable-bebe-cerise.jpg" height="200px">
+                    <label class="titreitem" for="item">Mobile</label>
+                </div>
+
+                <div class="case">
+                    <input type="radio" id="item" name="liste" value="doudou">
+                    <img src="images/peluche-doudou-avec-sucette-orthodontique-1er-age-philips-avent.jpg"
+                        height="200px">
+                    <label class="titreitem" for="item">Doudou</label>
+                </div>
+
+                <div class="case">
+                    <input type="radio" id="item" name="liste" value="tipi">
+                    <img src="images/tipi-reversible-geronimo.jpg" height="200px">
+                    <label class="titreitem" for="item">Tipi</label>
+                </div>
+
+                <button type="submit"> Envoyer</button>
+
+            </div>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

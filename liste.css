@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #0085eb;
+    background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96;
+    color: #0085eb;
+}
+
+.entete {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    height: auto;
+    background-color: #D2DCFC;
+    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+    border-bottom: solid 5px #212EB2;
+
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+}
+
+#titre {
+    font-size: 5vh;
+    height: auto;
+}
+
+#lien {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 35px;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 0px;
+    margin: 10px 0 10px 0;
+}
+
+a {
+    padding: 0 8px 0 18px;
+    text-decoration: none;
+    text-shadow: 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96;
+    color: wheat;
+}
+
+a:hover {
+    color: #171353;
+
+}
+
+td {
+    width: 345px;
+}
+
+th {
+    width: 345px;
+
+}
+
+.description {
+    width: 900px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    width: 400%;
+    margin-top: 380px;
+    position: relative;
+    bottom: 0;
+    background-color: #171353;
+}
+
+
+td {
+    border: 2px solid #171353;
+    font-size: 2vh;
+    color: #0085eb;
+    text-shadow: 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96;
+    width: 230px;
+    height: 90px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Trispace', sans-serif;
+}
+
+td.prix {
+    background-color: #0c3e64;
+
+    font-size: 3vh;
+}
+
+td.description {
+    background-color: #0c3e64;
+   
+}
+
+td.imageobj {
+    background-color: whitesmoke;
+    transition: transform 1.5s;
+}
+
+td.imageobj:hover {
+    transform: scale(1.5);
+}
+
+td.reserve {
+    background-color: #801c18;
+    
+}
+
+
+
+td.dispo {
+ 
+    background-color: rgb(75, 141, 69);
+}
+
+th {
+    background-color: #0c3e64;
+    
+    text-shadow: 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96;
+    color: #0085eb;
+    font-size: 30px;
+    border: 2px solid #171353;
+    height: 70px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.case {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 3px #171353;
+}
+
+#conteneur1 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 20px 0 20px 0;
+    width: 60%;
+}
+
+.ligneform {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ligneform input {
+    font-size: 30px;
+    background-color: #171353;
+    width: 100%;
+    color: wheat;
+}
+
+#conteneur2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+legend {
+    font-family: 'Anton', sans-serif;
+    text-shadow: 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb, 0 0 2px #0085eb;
+    color: #212EB2;
+    font-size: 25px;
+}
+
+#item {
+    height: 45px;
+    width: 45px;
+    align-self: center;
+    appearance: none;
+    border: 3px solid #171353;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    position: relative;
+    top: 20px;
+    background-color: #0085eb;
+}
+
+#item:checked {
+    border: 6px solid #171353;
+    background-image: url("images/croix.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button {
+    color: wheat;
+    background-color: #171353;
+    padding: 5px 10px;
+    border-radius: 0;
+    border: 0;
+    font-size: 14px;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+    width: 200px;
+    height: 105px;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.titreitem {
+    position: relative;
+    border-left: 3px solid #171353;
+    border-top: 3px solid #171353;
+    border-right: 3px solid #171353;
+    font-size: 30px;
+    background-color: #1c3f96;
+    text-shadow: 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96;
+    color: #0085eb;
+}
+
+.case img {
+    border-left: 3px solid #171353;
+    border-right: 3px solid #171353;
+    border-top: 3px solid #171353;
+}
+
+
+
+button:active {
+    background-color: #0085eb;
+    color: wheat;
+    outline: 1px solid black;
+}
+
+form {
+    margin: 300px 8% 0 8%;
+    padding: 2% 2% 2% 2%;
+    width: 80%;
+    background-color: #0c3e64;
+
+    border: solid 3px #171353;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form label {
+    text-shadow: 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96, 0 0 2px #1c3f96;
+    color: #0085eb;
+    font-size: 30px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
